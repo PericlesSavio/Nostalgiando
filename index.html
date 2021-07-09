@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Nostalgiando (Provisório)</title>
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS-->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+  
+    <div class="container">
+      <div class="row">
+
+        <div class="col box">
+          <img src="imagens/_desconhecido.png" id="ducktales_img" class="desenho_img" width="100%" height="auto">
+          <div class="input-group">            
+            <div class="input-group-prepend">
+              <button type="button" class="btn btn-secondary" onclick="javascript:tocador('ducktales_play');"><i class="fa fa-play-circle fa-1x"></i> Play</button>
+            </div>
+            <input id="ducktales_input" class="input" placeholder="Qual é o desenho?" onkeyup="resposta(ducktales, 'ducktales_input', 'ducktales_img')">
+          </div>
+        </div>
+
+        <div class="col box">
+          <img src="imagens/_desconhecido.png" id="cavalodefogo_img" class="desenho_img" width="100%" height="auto">
+          <div class="input-group">            
+            <div class="input-group-prepend">
+              <button type="button" class="btn btn-secondary" onclick="javascript:tocador('cavalodefogo_play');"><i class="fa fa-play-circle fa-1x"></i> Play</button>
+            </div>
+            <input id="cavalodefogo_input" class="input" placeholder="Qual é o desenho?" onkeyup="resposta(cavalodefogo, 'cavalodefogo_input', 'cavalodefogo_img')">
+          </div>
+        </div>
+
+        <div class="col box">
+          <img src="imagens/_desconhecido.png" id="babar_img" class="desenho_img" width="100%" height="auto">
+          <div class="input-group">            
+            <div class="input-group-prepend">
+              <button type="button" class="btn btn-secondary" onclick="javascript:tocador('babar_play');"><i class="fa fa-play-circle fa-1x"></i> Play</button>
+            </div>
+            <input id="babar_input" class="input" placeholder="Qual é o desenho?" onkeyup="resposta(babar, 'babar_input', 'babar_img')">
+          </div>
+        </div>
+
+        <div class="col box">
+          <img src="imagens/_desconhecido.png" id="animaniacs_img" class="desenho_img" width="100%" height="auto">
+          <div class="input-group">            
+            <div class="input-group-prepend">
+              <button type="button" class="btn btn-secondary" onclick="javascript:tocador('animaniacs_play');"><i class="fa fa-play-circle fa-1x"></i> Play</button>
+            </div>
+            <input id="animaniacs_input" class="input" placeholder="Qual é o desenho?" onkeyup="resposta(animaniacs, 'animaniacs_input', 'animaniacs_img')">
+          </div>
+        </div>
+
+        <div class="col box">
+          <img src="imagens/_desconhecido.png" id="nossaturma_img" class="desenho_img" width="100%" height="auto">
+          <div class="input-group">            
+            <div class="input-group-prepend">
+              <button type="button" class="btn btn-secondary" onclick="javascript:tocador('nossaturma_play');"><i class="fa fa-play-circle fa-1x"></i> Play</button>
+            </div>
+            <input id="nossaturma_input" class="input" placeholder="Qual é o desenho?" onkeyup="resposta(nossaturma, 'nossaturma_input', 'nossaturma_img')">
+          </div>
+        </div>   
+        
+        <div class="col box">
+          <img src="imagens/_desconhecido.png" id="defensoresdaterra_img" class="desenho_img" width="100%" height="auto">
+          <div class="input-group">            
+            <div class="input-group-prepend">
+              <button type="button" class="btn btn-secondary" onclick="javascript:tocador('defensoresdaterra_play');"><i class="fa fa-play-circle fa-1x"></i> Play</button>
+            </div>
+            <input id="defensoresdaterra_input" class="input" placeholder="Qual é o desenho?" onkeyup="resposta(defensoresdaterra, 'defensoresdaterra_input', 'defensoresdaterra_img')">
+          </div>
+        </div>  
+        
+        
+        <div class="col box">
+          <img src="imagens/_desconhecido.png" id="poleposition_img" class="desenho_img" width="100%" height="auto">
+          <div class="input-group">            
+            <div class="input-group-prepend">
+              <button type="button" class="btn btn-secondary" onclick="javascript:tocador('poleposition_play');"><i class="fa fa-play-circle fa-1x"></i> Play</button>
+            </div>
+            <input id="poleposition_input" class="input" placeholder="Qual é o desenho?" onkeyup="resposta(poleposition, 'poleposition_input', 'poleposition_img')">
+          </div>
+        </div>  
+        
+        
+        <div class="col box">
+          <img src="imagens/_desconhecido.png" id="pokemon_img" class="desenho_img" width="100%" height="auto">
+          <div class="input-group">            
+            <div class="input-group-prepend">
+              <button type="button" class="btn btn-secondary" onclick="javascript:tocador('pokemon_play');"><i class="fa fa-play-circle fa-1x"></i> Play</button>
+            </div>
+            <input id="pokemon_input" class="input" placeholder="Qual é o desenho?" onkeyup="resposta(pokemon, 'pokemon_input', 'pokemon_img')">
+          </div>
+        </div>
+
+        <div class="col box">
+          <img src="imagens/_desconhecido.png" id="bobby_img" class="desenho_img" width="100%" height="auto">
+          <div class="input-group">            
+            <div class="input-group-prepend">
+              <button type="button" class="btn btn-secondary" onclick="javascript:tocador('bobby_play');"><i class="fa fa-play-circle fa-1x"></i> Play</button>
+            </div>
+            <input id="bobby_input" class="input" placeholder="Qual é o desenho?" onkeyup="resposta(bobby, 'bobby_input', 'bobby_img')">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
+
+
+
+
+<!--audios-->
+<audio id="ducktales_play"><source src="audios/ducktales.mp3" type="audio/mpeg"></audio>
+<audio id="cavalodefogo_play"><source src="audios/cavalodefogo.mp3" type="audio/mpeg"></audio>
+<audio id="babar_play"><source src="audios/babar.mp3" type="audio/mpeg"></audio>
+<audio id="animaniacs_play"><source src="audios/animaniacs.mp3" type="audio/mpeg"></audio>
+<audio id="nossaturma_play"><source src="audios/nossaturma.mp3" type="audio/mpeg"></audio>
+<audio id="defensoresdaterra_play"><source src="audios/defensoresdaeterra.mp3" type="audio/mpeg"></audio>
+<audio id="poleposition_play"><source src="audios/poleposition.mp3" type="audio/mpeg"></audio>
+<audio id="pokemon_play"><source src="audios/pokemon.mp3" type="audio/mpeg"></audio>
+<audio id="bobby_play"><source src="audios/bobby.mp3" type="audio/mpeg"></audio>
+<!---->
+
+<script>
+  // contador
+  var contador = 0
+
+  // lista de imagens
+  aaaaa = "imagens/_acertou.png"
+
+  //respostas
+  const ducktales = ["DUCK TALES", "DUCKTALES: OS CAÇADORES DE AVENTURAS", "DUCKTALES"]
+  const cavalodefogo = ["CAVALO DE FOGO", "WILDFIRE"]
+  const babar = ["BABAR", "AS AVENTURAS DE BABAR" , "AVENTURAS DE BABAR"]
+  const animaniacs = ["ANIMANIACS" , "OS ANIMANIACS"]
+  const nossaturma = ["NOSSA TURMA" , "A NOSSA TURMA", "A TURMA", "A TURMA DO BAIRRO", "A GANGUE DO BARULHO"]
+  const defensoresdaterra = ["DEFENSORES DA TERRA" , "DEFENDERS OF THE EARTH"]
+  const poleposition = ["POLE POSITION"]
+  const pokemon = ["POKEMON" , "POKÉMON"]
+  const bobby = ["BOBBY" , "O FANTÁSTICO MUNDO DE BOBBY", "O MUNDO DE BOBBY"]
+
+  // play audios
+  function tocador(n) {
+    var audioElem = document.getElementById(n);
+    if (audioElem.paused) {
+      audioElem.currentTime = 0;
+      audioElem.play()
+    } else {
+      audioElem.pause();
+    }
+  }
+
+  // resposta
+  function resposta(resposta, id, img) {    
+    let text;
+    let x = document.getElementById(id).value.toUpperCase();
+    if (x == resposta[0] || x == resposta[1] || x == resposta[2] || x == resposta[3] || x == resposta[4]) {
+      document.getElementById(id).style.backgroundColor = '#195400';
+      document.getElementById(id).disabled = true;  
+      contador = contador + 1;
+      document.getElementById(img).src = aaaaa;
+      text = "Acertou!";
+      } else {
+        text = "Input not valid";
+      }
+      document.getElementById("demo").innerHTML = contador
+    }
+</script>
+
+
+
+
+
