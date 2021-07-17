@@ -13,4 +13,5 @@ Este projeto é um protótipo de um jogo feito em [Flash](https://pt.wikipedia.o
 - [x] Impedir a sobreposição de áudios tocados.
 - [x] Atualizar as imagens dos desenhos quando é identificado.
 - [ ] Encriptar as respostas.
-- [x] Simplificar a adição de novos desenhos
+- [x] Simplificar a adição de novos desenhos.
+- [x] Revelar o nome oficial do desenho no Brasil quando acertar.
