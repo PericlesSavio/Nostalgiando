@@ -7,9 +7,10 @@ Este projeto é um protótipo de um jogo feito em [Flash](https://pt.wikipedia.o
 
 ## Melhorias futuras
 - [ ] Definir um nome oficial pro projeto.
-- [ ] Corrigir o áudio do desenho #6.
+- [x] Corrigir o áudio do desenho #6.
 - [ ] Definir um tema (CSS).
 - [ ] Inserir um placar.
-- [ ] Impedir a sobreposição de áudios tocados.
-- [ ] Atualizar as imagens dos desenhos quando é identificado.
+- [x] Impedir a sobreposição de áudios tocados.
+- [x] Atualizar as imagens dos desenhos quando é identificado.
 - [ ] Encriptar as respostas.
+- [x] Simplificar a adição de novos desenhos
