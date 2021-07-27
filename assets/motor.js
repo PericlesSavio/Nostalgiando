@@ -54,27 +54,20 @@ const desenho_000 = {resposta:[""], nome:'',
 // contador
 var contador = 0
 
-
 // resposta
 function resposta(resposta, id, img, arte, nome) {    
   let text;
   let x = document.getElementById(id).value.toUpperCase();
   if (x == resposta[0] || x == resposta[1] || x == resposta[2] || x == resposta[3] || x == resposta[4] || x == resposta[5]) {
-    //document.getElementById(id).style.backgroundColor = '#195400';
-    document.getElementById(id).style.color = '#66ff66';
-    //document.getElementById(id).style.textAlign = 'center';    
+    document.getElementById(id).style.color = '#66ff66'; 
     document.getElementById(id).disabled = true; 
-    document.getElementById(id).value = nome; 
-    
-    contador = contador + 1;
+    document.getElementById(id).value = nome;    
     document.getElementById(img).src = arte;
-    text = "Acertou!";
+
+    contador = contador + 1;
+
     } else {
-      text = "Input not valid";
+      
     }
-    document.getElementById("demo").innerHTML = contador
-    
-  }
-
-
- 
+    document.getElementById("placar").innerHTML = 'Placar: ' + contador + ' de 16'    
+  } 
