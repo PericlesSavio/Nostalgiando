@@ -113,8 +113,10 @@ nav .icon-burger .line {
 }
 
 .navbar-fixed-top.scrolled {
-	background-color: rgba(0, 0, 0, .9);
+	background-color: rgba(0, 0, 0, .5);
 	transition: background-color 1000ms linear;
+	transition: border-bottom 1000ms linear;
+	border-bottom: #444 1px solid;
 }
   
 .navbar-fixed-top.scrolled .nav-link {
