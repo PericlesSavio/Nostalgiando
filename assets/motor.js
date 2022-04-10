@@ -11,7 +11,8 @@ const desenho_003 = {resposta:["BABAR", "AS AVENTURAS DE BABAR" , "AVENTURAS DE 
 const desenho_004 = {resposta:["ANIMANIACS" , "OS ANIMANIACS"], nome:'Animaniacs',
                     a:'desenho_004', input:'desenho_004_input', img:'desenho_004_img', arte:'imagens/animaniacs.png'}
 
-const desenho_005 = {resposta:["NOSSA TURMA" , "A NOSSA TURMA", "A TURMA", "A TURMA DO BAIRRO", "A GANGUE DO BARULHO"], nome:'A Nossa Turma',
+const desenho_005 = {resposta:["NOSSA TURMA" , "A NOSSA TURMA", "A TURMA", "A TURMA DO BAIRRO", "A GANGUE DO BARULHO", "THE GET ALONG GANG",
+                    "GET ALONG GANG"], nome:'A Nossa Turma',
                     a:'desenho_005', input:'desenho_005_input', img:'desenho_005_img', arte:'imagens/nossaturma.png'}
 
 const desenho_006 = {resposta:["DEFENSORES DA TERRA" , "DEFENDERS OF THE EARTH"], nome:'Defensores da Terra',
@@ -20,14 +21,14 @@ const desenho_006 = {resposta:["DEFENSORES DA TERRA" , "DEFENDERS OF THE EARTH"]
 const desenho_007 = {resposta:["POLE POSITION"], nome:'Pole Position',
                     a:'desenho_007', input:'desenho_007_input', img:'desenho_007_img', arte:'imagens/poleposition.png'}
 
-const desenho_008 = {resposta:["POKEMON" , "POKÉMON"], nome:'Pokémon',
-                    a:'desenho_008', input:'desenho_008_input', img:'desenho_008_img', arte:'imagens/pokemon.png'}
+const desenho_008 = {resposta:["RUGRATS OS ANJINHOS" , "RUGRATS", "OS ANJINHOS"], nome:'Rugrats: Os Anjinhos',
+                    a:'desenho_008', input:'desenho_008_input', img:'desenho_008_img', arte:'imagens/osanjinhos.png'}
 
 const desenho_009 = {resposta:["BOBBY", "O FANTÁSTICO MUNDO DE BOBBY", "O MUNDO FANTÁSTICO DE BOBBY", "FANTÁSTICO MUNDO DE BOBBY", "MUNDO FANTÁSTICO DE BOBBY",
-                    "O MUNDO DE BOBBY", "MUNDO DE BOBBY"], nome:'O Fantástico Mundo de Bobby',
+                    "O MUNDO DE BOBBY", "MUNDO DE BOBBY", "BOBBY'S WORLD", "THE WORLD ACCORDING TO BOBBY", "BOBBYS WORLD"], nome:'O Fantástico Mundo de Bobby',
                     a:'desenho_009', input:'desenho_009_input', img:'desenho_009_img', arte:'imagens/bobby.png'}
 
-const desenho_010 = {resposta:["PICA PAU", "PICA-PAU", "PICAPAU"], nome:'Pica-Pau',
+const desenho_010 = {resposta:["PICA PAU", "PICA-PAU", "PICAPAU", "WOODY WOODPECKER"], nome:'Pica-Pau',
                     a:'desenho_010', input:'desenho_010_input', img:'desenho_010_img', arte:'imagens/picapau.png'}
 
 const desenho_011 = {resposta:["LOONEY TUNES"], nome:'Looney Tunes',
@@ -36,16 +37,17 @@ const desenho_011 = {resposta:["LOONEY TUNES"], nome:'Looney Tunes',
 const desenho_012 = {resposta:["DOUG"], nome:'Doug',
                     a:'desenho_012', input:'desenho_012_input', img:'desenho_012_img', arte:'imagens/doug.png'}
 
-const desenho_013 = {resposta:["DRAGON BALL"], nome:'Dragon Ball',
-                    a:'desenho_013', input:'desenho_013_input', img:'desenho_013_img', arte:'imagens/dragonball.png'}
+const desenho_013 = {resposta:["JOHNNY BRAVO", "JONNY BRAVO"], nome:'Johnny Bravo',
+                      a:'desenho_013', input:'desenho_013_input', img:'desenho_013_img', arte:'imagens/jonnybravo.png'}
 
-const desenho_014 = {resposta:["STREET FIGHTER", "STREET FIGHTER VICTORY", "STREET FIGHTER II V", "STREET FIGHTER II VICTORY"], nome:'Street Fighter II V',
-                    a:'desenho_014', input:'desenho_014_input', img:'desenho_014_img', arte:'imagens/streetfighter.png'}
+const desenho_014 = {resposta:["CAPTAIN PLANET AND THE PLANETEERS", "CAPTAIN PLANET", "CAPITÃO PLANETA", "CAPITAO PLANETA"], nome:'Capitão Planeta',
+                      a:'desenho_014', input:'desenho_014_input', img:'desenho_014_img', arte:'imagens/capitaoplaneta.png'}
 
-const desenho_015 = {resposta:["DIGIMON"], nome:'Digimon',
-                    a:'desenho_015', input:'desenho_015_input', img:'desenho_015_img', arte:'imagens/digimon.png'}
+const desenho_015 = {resposta:["O LABORATÓRIO DE DEXTER", "LABORATÓRIO DE DEXTER", "O LABORATÓRIO DO DEXTER", "LABORATÓRIO DO DEXTER", "DEXTER",
+                    "DEXTER'S LABORATORY", "O LABORATORIO DE DEXTER", "LABORATORIO DE DEXTER"], nome:'O Laboratório de Dexter',
+                      a:'desenho_015', input:'desenho_015_input', img:'desenho_015_img', arte:'imagens/dexter.png'}
 
-const desenho_016 = {resposta:["TOM E JERRY", "TOM AND JERRY","TOM JERRY"], nome:'Tom & Jerry',
+const desenho_016 = {resposta:["TOM E JERRY", "TOM AND JERRY","TOM JERRY", "TOM AND JERRY"], nome:'Tom e Jerry',
                     a:'desenho_016', input:'desenho_016_input', img:'desenho_016_img', arte:'imagens/tomejerry.png'}
 
 // tokusatsus
@@ -97,13 +99,59 @@ const tokusatsu_015 = {resposta:["MASKMAN", "DEFENSORES DA LUZ MASKMAN"], nome:'
 const tokusatsu_016 = {resposta:["GABAN", "POLICIAL DO ESPAÇO GABAN", "POLICIAL GABAN", "SPACE COP", "SPACECOP"], nome:'Policial do Espaço Gaban/Space Cop',
                     a:'tokusatsu_016', input:'tokusatsu_016_input', img:'tokusatsu_016_img', arte:'imagens/gaban.png'}
 
+// animes
+const anime_001 = {resposta:["ONE PIECE"], nome:'One Piece',
+                    a:'anime_001', input:'anime_001_input', img:'anime_001_img', arte:'imagens/onepiece.png'}                  
+
+const anime_002 = {resposta:["NARUTO"], nome:'Naruto',
+                    a:'anime_002', input:'anime_002_input', img:'anime_002_img', arte:'imagens/naruto.png'}
+
+const anime_003 = {resposta:["POKEMON" , "POKÉMON"], nome:'Pokémon',
+                    a:'anime_003', input:'anime_003_input', img:'anime_003_img', arte:'imagens/pokemon.png'}
+
+const anime_004 = {resposta:["STREET FIGHTER", "STREET FIGHTER VICTORY", "STREET FIGHTER II V", "STREET FIGHTER II VICTORY"], nome:'Street Fighter II V',
+                    a:'anime_004', input:'anime_004_input', img:'anime_004_img', arte:'imagens/streetfighter.png'}
+
+const anime_005 = {resposta:["DIGIMON"], nome:'Digimon',
+                    a:'anime_005', input:'anime_005_input', img:'anime_005_img', arte:'imagens/digimon.png'}
+
+const anime_006 = {resposta:["DRAGON BALL", "DRAGONBALL"], nome:'Dragon Ball',
+                    a:'anime_006', input:'anime_006_input', img:'anime_006_img', arte:'imagens/dragonball.png'}
+
+const anime_007 = {resposta:["NEON GENESIS EVANGELION", "EVANGELION"], nome:'Neon Genesis Evangelion',
+                    a:'anime_007', input:'anime_007_input', img:'anime_007_img', arte:'imagens/evangelion.png'}
+
+const anime_008 = {resposta:["JOJO'S BIZARRE ADVENTURE", "JOJOS BIZARRE ADVENTURE", "JOJO BIZARRE ADVENTURE", "JOJO"], nome:"JoJo's Bizarre Adventure",
+                    a:'anime_008', input:'anime_008_input', img:'anime_008_img', arte:'imagens/jojo.png'}
+
+const anime_009 = {resposta:["EL HAZARD", "EL-HAZARD"], nome:'El-Hazard',
+                    a:'anime_009', input:'anime_009_input', img:'anime_009_img', arte:'imagens/elhazard.png'}
+
+const anime_010 = {resposta:["DRAGON BALL Z", "DBZ"], nome:'Dragon Ball Z',
+                    a:'anime_010', input:'anime_010_input', img:'anime_010_img', arte:'imagens/dbz.png'}
+
+const anime_011 = {resposta:["YU YU HAKUSHO", "YUYU HAKUSHO"], nome:'Yu Yu Hakusho',
+                    a:'anime_011', input:'anime_011_input', img:'anime_011_img', arte:'imagens/yuyuhakusho.png'}
+
+const anime_012 = {resposta:["SAKURA CARD CAPTORS", "SAKURA CARDCAPTORS"], nome:'Sakura Card Captors',
+                    a:'anime_012', input:'anime_012_input', img:'anime_012_img', arte:'imagens/sakuracardcaptors.png'}
+
+const anime_013 = {resposta:["OS CAVALEIROS DO ZODÍACO", "OS CAVALEIROS DO ZODIACO", "CAVALEIROS DO ZODÍACO", "CAVALEIROS DO ZODIACO",
+                  "SAINT SEIYA"], nome:'Os Cavaleiros do Zodíaco',
+                    a:'anime_013', input:'anime_013_input', img:'anime_013_img', arte:'imagens/saintseiya.png'}
+
+const anime_014 = {resposta:["GUERREIRAS MÁGICAS DE RAYEARTH", "GUERREIRAS MAGICAS DE RAYEARTH", "GUERREIRAS DE RAYEARTH"], nome:'Guerreiras Mágicas de Rayearth',
+                    a:'anime_014', input:'anime_014_input', img:'anime_014_img', arte:'imagens/rayearth.png'}
+
+const anime_015 = {resposta:["SAILOR MOON"], nome:'Sailor Moon',
+                    a:'anime_015', input:'anime_015_input', img:'anime_015_img', arte:'imagens/sailormoon.png'}
+
+const anime_016 = {resposta:["SAMURAI X", "RUROUNI KENSHIN"], nome:'Samurai X/Rurouni Kenshin',
+                    a:'anime_016', input:'anime_016_input', img:'anime_016_img', arte:'imagens/samuraix.png'}
+
                     
-
-
-
-                    
-const item_000 = {resposta:[""], nome:'',
-                    a:'item_0', input:'item_0_input', img:'item_0_img', arte:'imagens/.png'}
+const anime_000 = {resposta:[""], nome:'',
+                    a:'anime_00', input:'anime_00_input', img:'anime_00_img', arte:'imagens/.png'}
 
 // contador
 var contador = 0
