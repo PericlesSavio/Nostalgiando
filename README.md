@@ -1,14 +1,14 @@
 # Nostalgiando Desenhos
-Este projeto é inspirado em um jogo que joguei lá pelos anos de 2010. O objetivo é tocar trechos de áudio com as trilhas correspondente a desenhos animados antigos que marcaram a infância de muita gente. O jogo original, que não está mais disponível, era feito em [Flash](https://pt.wikipedia.org/wiki/Adobe_Flash) e não encontrei nenhuma informação do autor. O pouco que encontrei foram as reportagens abaixo.
+Este projeto é inspirado em um jogo que joguei lá pelos anos de 2010. O objetivo é tocar trechos de áudio com as trilhas correspondente a desenhos animados antigos que marcaram a infância de muita gente. O jogo original, que não está mais disponível, era feito em [Flash](https://pt.wikipedia.org/wiki/Adobe_Flash) e não encontrei nenhuma informação sobre o autor. O pouco que encontrei foram as reportagens abaixo.
+
+## O jogo (original) na mídia
+- [G1](https://g1.globo.com/Noticias/Tecnologia/0,,MUL166680-6174,00-WEBGAME+HOMENAGEIA+DESENHOS+ANIMADOS.html)
+- [Olhar Digital](https://www.youtube.com/watch?v=O8BRVvyF9aE)
 
 ## Conhecimento utilizado
  - HTML
  - CSS + Bootstrap
  - JavaScript
-
-## O jogo (original) na mídia
-- [G1](https://g1.globo.com/Noticias/Tecnologia/0,,MUL166680-6174,00-WEBGAME+HOMENAGEIA+DESENHOS+ANIMADOS.html)
-- [Olhar Digital](https://www.youtube.com/watch?v=O8BRVvyF9aE)
 
 ## Versão 1.0
 - [x] Definir um nome oficial pro projeto.
@@ -20,7 +20,11 @@ Este projeto é inspirado em um jogo que joguei lá pelos anos de 2010. O objeti
 - [x] Simplificar a adição de novos desenhos.
 - [x] Revelar o nome oficial do desenho no Brasil quando acertar.
 
+## Versão 1.1
+- [x] Categorias adicionadas (animes e tokusatsus)
+- [x] Correção de bugs
+
 ## Melhorias futuras
 - [ ] Encriptar as respostas.
 - [ ] Mimificar os arquivos .js
-- [ ] Expandir o jogo
+- [ ] Expandir as categorias

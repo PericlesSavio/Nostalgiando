@@ -69,7 +69,7 @@ const tokusatsu_005 = {resposta:["FLASHMAN", "COMANDO ESTELAR FLASHMAN"], nome:'
 const tokusatsu_006 = {resposta:["CHANGEMAN", "ESQUADRÃO RELÂMPAGO CHANGEMAN", "ESQUADRAO RELAMPAGO CHANGEMAN"], nome:'Esquadrão Relâmpago Changeman',
                     a:'tokusatsu_006', input:'tokusatsu_006_input', img:'tokusatsu_006_img', arte:'imagens/changeman.png'}
 
-const tokusatsu_007 = {resposta:["CYBERCOP", "CYBERCOPs"], nome:'Cybercop, os Policiais do Futuro',
+const tokusatsu_007 = {resposta:["CYBERCOP", "CYBERCOPS"], nome:'Cybercop, os Policiais do Futuro',
                     a:'tokusatsu_007', input:'tokusatsu_007_input', img:'tokusatsu_007_img', arte:'imagens/cybercop.png'}
 
 const tokusatsu_008 = {resposta:["JASPION"], nome:'O Fantástico Jaspion',
@@ -84,7 +84,7 @@ const tokusatsu_010 = {resposta:["SOLBRAIN", "SUPER EQUIPE DE RESGATE SOLBRAIN",
 const tokusatsu_011 = {resposta:["METALDER"], nome:'Metalder, o Homem Máquina',
                     a:'tokusatsu_011', input:'tokusatsu_011_input', img:'tokusatsu_011_img', arte:'imagens/metalder.png'}
 
-const tokusatsu_012 = {resposta:["SPIELVAN", "GUERREIRO DIMENSIONAL SPIELVAN"], nome:'Guerreiro Dimensional Spielvan',
+const tokusatsu_012 = {resposta:["SPIELVAN", "GUERREIRO DIMENSIONAL SPIELVAN", "JASPION2", "JASPION 2"], nome:'Jaspion 2/Guerreiro Dimensional Spielvan',
                     a:'tokusatsu_012', input:'tokusatsu_012_input', img:'tokusatsu_012_img', arte:'imagens/spielvan.png'}
 
 const tokusatsu_013 = {resposta:["LION MAN", "LION-MAN"], nome:'Lion Man',
@@ -96,7 +96,7 @@ const tokusatsu_014 = {resposta:["SHARIVAN, O GUARDIÃO DO ESPAÇO", "SHARIVAN"]
 const tokusatsu_015 = {resposta:["MASKMAN", "DEFENSORES DA LUZ MASKMAN"], nome:'Defensores da Luz Maskman',
                     a:'tokusatsu_015', input:'tokusatsu_015_input', img:'tokusatsu_015_img', arte:'imagens/maskman.png'}
 
-const tokusatsu_016 = {resposta:["GABAN", "POLICIAL DO ESPAÇO GABAN", "POLICIAL GABAN", "SPACE COP", "SPACECOP"], nome:'Policial do Espaço Gaban/Space Cop',
+const tokusatsu_016 = {resposta:["GABAN", "POLICIAL DO ESPAÇO GABAN", "POLICIAL GABAN", "SPACE COP", "SPACECOP"], nome:'Space Cop/Policial do Espaço Gaban',
                     a:'tokusatsu_016', input:'tokusatsu_016_input', img:'tokusatsu_016_img', arte:'imagens/gaban.png'}
 
 // animes
