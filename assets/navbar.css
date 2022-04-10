@@ -7,6 +7,30 @@
 	display: block;
 	width: 100%;
 }
+
+.navbar-fixed-top {
+	background-color: rgba(0, 0, 0, 0);
+	border-bottom: rgb(68, 68, 68, 0) 1px solid;
+}
+.navbar-fixed-top.scrolled {
+	background-color: rgba(0, 0, 0, .6);	
+	border-bottom: rgb(68, 68, 68, 1) 1px solid;
+}  
+.navbar-fixed-top.scrolled .nav-link {
+	color:rgba(0,0,0,0);
+}
+
+.logo {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 500ms linear;
+}  
+.logo.scrolled {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 500ms linear;
+}
+
 nav {
 	position: fixed;
 	z-index: 10;
@@ -16,7 +40,6 @@ nav {
 	font-family: 'Montserrat', sans-serif;
 	padding: 0 5%;
 	height: 50px;
-	background-color: rgba(0,0,0,0);
 }
 nav .logo {
 	float: left;
@@ -92,7 +115,8 @@ nav .icon-burger .line {
 		transition: all .5s ease-in-out;
 	}
 	nav .links a {
-		font-size: 20px;
+		font-size: 50px;
+		font-weight: bolder;
 	}
 	nav :checked ~ .links {
 		bottom: 0;
@@ -108,24 +132,5 @@ nav .icon-burger .line {
 	}
 	nav :checked ~ .icon-burger .line:nth-child(2) {
 		opacity: 0;
-	}
-	
-}
-
-.navbar-fixed-top.scrolled {
-	background-color: rgba(0, 0, 0, .5);
-	transition: background-color 1000ms linear;
-	transition: border-bottom 1000ms linear;
-	border-bottom: #444 1px solid;
-}
-  
-.navbar-fixed-top.scrolled .nav-link {
-color:rgba(0,0,0,0);
-}
-
-nav ul li a:hover {
-	color: #75acff;
-}
-  nav ul .active a {
-	color: #75acff;
+	}	
 }

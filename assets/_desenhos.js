@@ -10,4 +10,6 @@ $(function () {
 
       $("modulo").append(Container);
     });
-  }); 
+  });
+
+const score = ' de 16'

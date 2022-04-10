@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Nostalgiando Desenhos</title>
+    <title>Nostalgiando</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -30,34 +30,34 @@
     <!--Navbar-->
     <nav class="navbar-fixed-top">
       <input id="nav-toggle" type="checkbox">
-      <div class="logo gradient-text"></div>
+      <div class="logo gradient-text"><a href="https://periclessavio.github.io/Nostalgiando/" class="gradient-text">Nostalgiando</a></div>
       <ul id="mainNav" class="links">
-        <li class="active"><a href="#topo">Topo</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#jogo">Jogo</a></li>
+        <li class="active menu_animacao"><a href="#topo">Topo</a></li>
+        <li class="menu_animacao"><a href="#sobre">Sobre</a></li>
+        <li class="menu_animacao"><a href="#jogo">Jogar</a></li>
       </ul>
       <label for="nav-toggle" class="icon-burger">
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
       </label>
-    </nav> <!--Fim do Navbar-->
+    </nav>
 
     <!--Intro-->
     <div id="topo" class="intro">
       <div class="bg"></div>
-      <h1 class="animated gradient-text title">NOSTALGIANDO DESENHOS</h1>
+      <h1 class="animated gradient-text title">NOSTALGIANDO</h1>
     </div>
 
     <!---->
-    <div class="sobre">
-      <div id="sobre" class="container-flex max1500px">
+    <div id="sobre" class="sobre" style="padding-top: 1px;">
+      <div class="container-flex max1500px">
         <h2 class="gradient-text">Sobre</h2>
         <p>
           Este projeto é inspirado em um jogo que joguei lá pelos anos de 2010.
           O objetivo é tocar trechos de áudio com as trilhas correspondente a desenhos animados antigos que marcaram a infância de muita gente.
           O jogo original, que não está mais disponível, era feito em <a href="https://pt.wikipedia.org/wiki/Adobe_Flash" target='_blank' class="gradient-text">Flash</a> e não encontrei
-          nenhuma informação do autor. O pouco que encontrei foram as reportagens abaixo.
+          nenhuma informação sobre o autor. O pouco que encontrei foram as reportagens abaixo.
         </p>
         <br><br>
         <div class="grid">
@@ -76,15 +76,21 @@
     </div>
 
     <!---->
-    <div id="jogo" class="container-flex max1500px">
-      <h2 class="gradient-text">Jogo</h2>
-      <div id="placar" class="placar">Placar: 0 de 16</div>
-      <modulo class="grid centered">
-      </modulo>
-      
-    </div>
+    <div id="jogo" style="padding-top: 1px;">
+      <div  class="container-flex max1500px">
+        <h2 class="gradient-text">Jogar</h2>
+        <div class="grid-container">
+          <a href="desenhos.html" class="gradient-text"><div class="grid-item">Desenhos</div></a>
+          <a href="tokusatsus.html" class="gradient-text"><div class="grid-item">Tokusatsus</div></a>
+          <div class="grid-item">Animes (em breve)</div>
+          <div class="grid-item">Temas de filmes (em breve)</div>
+          <div class="grid-item">(em breve)</div>
+          <div class="grid-item">(em breve)</div>          
+        </div>        
+      </div>
+  </div>
 
-    <!---->
+    <!--footer-->
     <footer>
       <div class="max1500px">
         <div class="footer_l">
@@ -94,7 +100,7 @@
           <p>SITE CRIADO POR PÉRICLES S. G. MARQUES / <a class="gradient-text" href="mailto:pericles.marques@outlook.com">PERICLES.MARQUES@OUTLOOK.COM</a></p>
         </div>    
       </div>  
-    </footer> 
+    </footer>    
 
     <!--outros js (tem que ficar no final)-->
     <script type="text/javascript" src="assets/som.js"></script>

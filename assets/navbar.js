@@ -58,3 +58,9 @@ $(window).scroll(function(){
 
 
 
+$(function () {
+  $(document).scroll(function () {
+      var $nav = $(".logo");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()+00);
+  });
+});
