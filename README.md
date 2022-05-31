@@ -1,6 +1,9 @@
 # Nostalgiando Desenhos
 Este projeto é inspirado em um jogo que joguei lá pelos anos de 2010. O objetivo é tocar trechos de áudio com as trilhas correspondente a desenhos animados antigos que marcaram a infância de muita gente. O jogo original, que não está mais disponível, era feito em [Flash](https://pt.wikipedia.org/wiki/Adobe_Flash) e não encontrei nenhuma informação sobre o autor. O pouco que encontrei foram as reportagens abaixo.
 
+## Link
+[https://periclessavio.github.io/Nostalgiando/](https://periclessavio.github.io/Nostalgiando/)
+
 ## O jogo (original) na mídia
 - [G1](https://g1.globo.com/Noticias/Tecnologia/0,,MUL166680-6174,00-WEBGAME+HOMENAGEIA+DESENHOS+ANIMADOS.html)
 - [Olhar Digital](https://www.youtube.com/watch?v=O8BRVvyF9aE)
