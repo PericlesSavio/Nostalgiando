@@ -60,7 +60,7 @@ const tokusatsu_002 = {resposta:["POWER RANGERS", "MIGHTY MORPHIN POWER RANGERS"
 const tokusatsu_003 = {resposta:["JIRAIYA", "JIRAYA", "JIRAIA"], nome:'Jiraiya: O Incrível Ninja',
                     a:'tokusatsu_003', input:'tokusatsu_003_input', img:'tokusatsu_003_img', arte:'imagens/jiraiya.png'}
 
-const tokusatsu_004 = {resposta:["KAMER RIDER", "KAMERRIDER"], nome:'Kamen Rider Black',
+const tokusatsu_004 = {resposta:["KAMEN RIDER", "KAMENRIDER"], nome:'Kamen Rider Black',
                     a:'tokusatsu_004', input:'tokusatsu_004_input', img:'tokusatsu_004_img', arte:'imagens/kamerrider.png'}
 
 const tokusatsu_005 = {resposta:["FLASHMAN", "COMANDO ESTELAR FLASHMAN"], nome:'Comando Estelar Flashman',
