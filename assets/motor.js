@@ -26,6 +26,11 @@ const desenho_013 = item('desenho_013', ["JOHNNY BRAVO", "JONNY BRAVO"], 'Johnny
 const desenho_014 = item('desenho_014', ["CAPTAIN PLANET AND THE PLANETEERS", "CAPTAIN PLANET", "CAPITÃO PLANETA", "CAPITAO PLANETA"], 'Capitão Planeta', 'imagens/capitaoplaneta.png');
 const desenho_015 = item('desenho_015', ["O LABORATÓRIO DE DEXTER", "LABORATÓRIO DE DEXTER", "O LABORATÓRIO DO DEXTER", "LABORATÓRIO DO DEXTER", "DEXTER", "DEXTER'S LABORATORY", "O LABORATORIO DE DEXTER", "LABORATORIO DE DEXTER"], 'O Laboratório de Dexter', 'imagens/dexter.png');
 const desenho_016 = item('desenho_016', ["TOM E JERRY", "TOM AND JERRY", "TOM JERRY", "TOM AND JERRY"], 'Tom e Jerry', 'imagens/tomejerry.png');
+const desenho_017 = item('desenho_017', ["THUNDERCATS"], 'Thundercats', 'imagens/thundercats.jpg');
+const desenho_018 = item('desenho_018', ["MANDA CHUVA", "MANDACHUVA", "MANDA-CHUVA"], 'Manda-Chuva', 'imagens/mandachuva.jpeg');
+const desenho_019 = item('desenho_019', ["DARK WING DUCK", "DARKWINGDUCK", "DARKWING DUCK"], 'DarkWing Duck', 'imagens/darkwingduck.jpeg');
+const desenho_020 = item('desenho_020', ["SUPERPATOS", "SUPER PATOS"], 'Super Patos', 'imagens/superpatos.jpeg');
+const desenho_021 = item('desenho_021', ["TRIGEMEAS", "AS TRIGEMEAS", "TRIGÊMEAS", "AS TRIGÊMEAS"], 'As Trigêmeas', 'imagens/as_trigemeas.jpg');
 
 // tokusatsus
 const tokusatsu_001 = item('tokusatsu_001', ["JIBAN", "POLICIAL DE AÇO JIBAN", "POLICIAL DE ACO JIBAN"], 'Policial de Aço Jiban', 'imagens/jiban.png');
@@ -62,6 +67,8 @@ const anime_013 = item('anime_013', ["OS CAVALEIROS DO ZODÍACO", "OS CAVALEIROS
 const anime_014 = item('anime_014', ["GUERREIRAS MÁGICAS DE RAYEARTH", "GUERREIRAS MAGICAS DE RAYEARTH", "GUERREIRAS DE RAYEARTH"], 'Guerreiras Mágicas de Rayearth', 'imagens/rayearth.png');
 const anime_015 = item('anime_015', ["SAILOR MOON"], 'Sailor Moon', 'imagens/sailormoon.png');
 const anime_016 = item('anime_016', ["SAMURAI X", "RUROUNI KENSHIN"], 'Samurai X/Rurouni Kenshin', 'imagens/samuraix.png');
+const anime_017 = item('anime_017', ["POPOLOCROIS"], 'Popolocrois', 'imagens/popolocrois.png');
+const anime_018 = item('anime_018', ["BUCKY"], 'Bucky', 'imagens/bucky.jpeg');
 
 // jogo
 const jogo_001 = item('jogo_001', ["VALIS 2", "VALIS II"], 'Valis II (PC Engine)', 'imagens/valisii.png');
@@ -101,14 +108,42 @@ const jogo_029 = item('jogo_029', ["THE LEGEND OF ZELDA OCARINA OF TIME", "OCARI
 // contador
 var contador = 0
 
+// funcoes
+function getBigrams(str) {
+  const bigrams = new Set();
+  for (let i = 0; i < str.length - 1; i += 1) {
+    bigrams.add(str.substring(i, i + 2));
+  }
+  return bigrams;
+}
+
+function intersect(set1, set2) {
+  return new Set([...set1].filter((x) => set2.has(x)));
+}
+
+function diceCoefficient(str1, str2) {
+  /* Returns a number between 0 and 1, where 1 means the strings are identical
+  and 0 means they have no bigrams in common.
+  More info: https://en.wikipedia.org/wiki/Sørensen–Dice_coefficient
+  Example:
+  diceCoefficient('night', 'nacht') // 0.25
+  */
+  const bigrams1 = getBigrams(str1.toLowerCase());
+  const bigrams2 = getBigrams(str2.toLowerCase());
+  return (2 * intersect(bigrams1, bigrams2).size) / (bigrams1.size + bigrams2.size);
+}
+
 // resposta
 function resposta(resposta, id, img, arte, nome) {    
   let text;
   let x = document.getElementById(id).value.toUpperCase();
-  if (
+  const map1 = resposta.map((y) => diceCoefficient(x, y));
+  let coef = Math.max(...map1);
+  /*if (
     x == resposta[0] || x == resposta[1] || x == resposta[2] || x == resposta[3] || x == resposta[4] ||
     x == resposta[5] || x == resposta[6] || x == resposta[7] || x == resposta[8] || x == resposta[9]
-    ) {
+    ) {*/
+  if (coef >= 0.85) {  
     document.getElementById(id).style.color = '#66ff66'; 
     document.getElementById(id).disabled = true; 
     document.getElementById(id).value = nome;    
@@ -120,4 +155,4 @@ function resposta(resposta, id, img, arte, nome) {
       
     }
     document.getElementById("placar").innerHTML = 'Placar: ' + contador + score
-  } 
+  }
